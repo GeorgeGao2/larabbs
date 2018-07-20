@@ -102,6 +102,7 @@ body {
     .reply-content {
         margin: 6px 0;
         }
+      }
     }
 }
 /* Topic Index Page */
@@ -163,5 +164,18 @@ body {
     .meta {
         font-size: .9em;
         color: #b3b3b3;
+    }
+}
+/* Notifications badge */
+
+.notifications-badge {
+    margin-top: -1;
+
+    .badge-fade {
+        background-color: #EBE8E8;
+    }
+
+    .badge-hint {
+        background-color: #d15b47 !important;;
     }
 }
